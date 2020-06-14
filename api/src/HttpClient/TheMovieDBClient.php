@@ -3,13 +3,9 @@
 
 namespace App\HttpClient;
 
-
-use App\DataTransformer\MovieInputDataTransformer;
-use Psr\Log\LoggerInterface;
-use Symfony\Component\HttpClient\HttpClient;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
 
-class TheMovieDBClient implements TheMovieDBClientInterface
+class TheMovieDBClient extends BaseApi implements TheMovieDBClientInterface
 {
     /**
      * @var HttpClientInterface
@@ -35,15 +31,5 @@ class TheMovieDBClient implements TheMovieDBClientInterface
         }
 
         return $response->getContent();
-    }
-
-    private function getUri(string $uri, array $routeParameters = []): string
-    {
-        $values = array_values($routeParameters);
-        $keys = array_map(function ($key) {
-            return '{'.$key.'}';
-        }, array_keys($routeParameters));
-
-        return str_replace($keys, $values, $uri);
     }
 }
