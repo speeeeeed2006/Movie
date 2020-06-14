@@ -30,7 +30,10 @@ docker-compose up -d
 ```
 
 ### Usage
-Swagger documentation URL : [http://localhost:8443](http://localhost:8443)
+Example :
+Interstellar : [http://localhost:8443/movie/?movieId=157336](http://localhost:8443/movie/?movieId=157336)
+Fight Club : [http://localhost:8443/movie/?movieId=550](http://localhost:8443/movie/?movieId=550)
+Matric : [http://localhost:8443/movie/?movieId=603](http://localhost:8443/movie/?movieId=603)
 
 **Some utils commands**
 
