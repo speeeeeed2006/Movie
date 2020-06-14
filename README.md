@@ -32,8 +32,10 @@ docker-compose up -d
 ### Usage
 Example :
 Interstellar : [http://localhost:8443/movie/?movieId=157336](http://localhost:8443/movie/?movieId=157336)
+
 Fight Club : [http://localhost:8443/movie/?movieId=550](http://localhost:8443/movie/?movieId=550)
-Matric : [http://localhost:8443/movie/?movieId=603](http://localhost:8443/movie/?movieId=603)
+
+Matrix : [http://localhost:8443/movie/?movieId=603](http://localhost:8443/movie/?movieId=603)
 
 **Some utils commands**
 
