@@ -14,8 +14,8 @@
 
 **1.** Clone this repository
 ```bash
-git clone git@github.com:speeeeeed2006/IPEZ.git
-cd 
+git clone git@github.com:speeeeeed2006/Movie.git
+cd Movie
 ```
 
 **2.** Copy `.env.dist` to `.env`
@@ -30,7 +30,7 @@ docker-compose up -d
 ```
 
 ### Usage
-Swagger documentation URL : [http://localhost:8080/api/v1/doc](http://localhost:8080/api/v1/doc)
+Swagger documentation URL : [http://localhost:8443](http://localhost:8443)
 
 **Some utils commands**
 
