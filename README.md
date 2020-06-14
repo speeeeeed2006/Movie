@@ -15,7 +15,7 @@
 **1.** Clone this repository
 ```bash
 git clone git@github.com:speeeeeed2006/Movie.git
-cd Movie
+cd Movie/api
 ```
 
 **2.** Copy `.env.dist` to `.env`
